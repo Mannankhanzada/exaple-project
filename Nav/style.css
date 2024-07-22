@@ -1,0 +1,53 @@
+
+
+body{
+    background-color: black;
+    color: white;
+}
+
+#carouselExampleCaptions
+{
+    margin-top: 50px;
+    margin-left: 80px;
+    height: 500px;
+}
+
+.carousel-inner img{
+width: 800px;
+height: 400px;
+margin-left: 200px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 0px 20px;
+
+}
+
+.main1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px 20px 0px 20px;
+
+}
+
+.card {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.container-fluid{
+    background-color: rgb(51, 222, 245);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: x-large;
+    
+}
+
+.card :hover{
+    animation: bounce; 
+    animation-duration: 6s;
+}
